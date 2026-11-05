@@ -13,9 +13,9 @@ The skill routes a request to the right Actor, runs it through the hosted Apify 
 
 ## Install
 
-Copy `SKILL.md` into your agent's skills directory, or add this repository as a skill source.
+The skill lives at `skills/facebook-intelligence/SKILL.md`. Copy that folder into your agent's skills directory, or add this repository as a skill source.
 
-For Codex:
+For Codex, the resulting path is:
 
 ```text
 %USERPROFILE%\.codex\skills\facebook-intelligence\SKILL.md
@@ -37,3 +37,4 @@ It does not access private, closed, friends-only, or login-gated content. Reels,
 
 - Drafted by Opus 5.5, reviewed by Muse 1.3.
 - Validated on 2026-11-05 deep smoke: B returned 50 comments including 25 replies; Comments returned 400 unique comments across 40 pages; Profile respected three cost caps.
+- Passes the Agent Skills validator from `coreyhaines31/marketingskills` (`1/1 valid`, no warnings).

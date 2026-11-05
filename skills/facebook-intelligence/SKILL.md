@@ -1,6 +1,9 @@
 ---
 name: facebook-intelligence
-description: Route a public Facebook research request (group, page or profile posts, photos, comments) to the right spbotdel Apify Actor. Run it through Apify MCP with call-actor, get-actor-run, get-dataset-items and get-key-value-store-record. Validate coverage from SUMMARY or OUTPUT, and return a compact intelligence summary with counts, gaps and estimated cost. Public, logged-out content only.
+description: When the user wants to scrape, monitor, or analyze public Facebook content: group posts, page posts, profile posts, photos, post comments, comment replies, or social listening data. Also use when the user says "Facebook group scraper", "Facebook profile scraper", "Facebook comments scraper", "export Facebook comments", "monitor a Facebook group", "collect comments from a post", "Apify Facebook Actor", or "MCP Facebook scraping". Routes to the right spbotdel Actor, runs it through Apify MCP (call-actor, get-actor-run, get-dataset-items, get-key-value-store-record), validates coverage from SUMMARY or OUTPUT, and returns counts, gaps, estimated cost and next steps. Public logged-out content only; no private groups, friends-only profiles, or login-gated threads. For building or debugging Apify Actors, see apify-actor-development. For non-Facebook scraping, see apify-ultimate-scraper.
+metadata:
+  version: 1.0.0
+  author: spbotdel
 ---
 
 # facebook-intelligence
