@@ -33,8 +33,7 @@ The agent needs access to the Apify MCP server (`https://mcp.apify.com`) and an 
 
 It does not access private, closed, friends-only, or login-gated content. Reels, photo pages, and `/watch` comment lists are not served to logged-out visitors.
 
-## Provenance
+## Validation
 
-- Drafted by Opus 5.5, reviewed by Muse 1.3.
-- Validated on 2026-11-05 deep smoke: B returned 50 comments including 25 replies; Comments returned 400 unique comments across 40 pages; Profile respected three cost caps.
+- Deep smoke on 2026-11-05: B returned 50 comments including 25 replies; Comments returned 400 unique comments across 40 pages; Profile respected the $0.02, $0.05 and $0.10 caps.
 - Passes the Agent Skills validator from `coreyhaines31/marketingskills` (`1/1 valid`, no warnings).
